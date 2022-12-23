@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-23T12:20:18 IST" name="Default suite" finished-at="2022-12-23T12:20:23 IST" duration-ms="4684">
+    <groups>
+    </groups>
+    <test started-at="2022-12-23T12:20:18 IST" name="Default test" finished-at="2022-12-23T12:20:23 IST" duration-ms="4684">
+      <class name="scripts.Script1">
+        <test-method is-config="true" signature="createReport()[pri:0, instance:scripts.Script1@60a2630a]" started-at="2022-12-23T12:20:18 IST" name="createReport" finished-at="2022-12-23T12:20:18 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createReport -->
+        <test-method is-config="true" signature="openApp(java.lang.String,java.lang.reflect.Method)[pri:0, instance:scripts.Script1@60a2630a]" started-at="2022-12-23T12:20:18 IST" name="openApp" finished-at="2022-12-23T12:20:21 IST" duration-ms="3251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[base.properties]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void scripts.Script1.createCustomer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="createCustomer()[pri:1, instance:scripts.Script1@60a2630a]" started-at="2022-12-23T12:20:21 IST" name="createCustomer" finished-at="2022-12-23T12:20:22 IST" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method is-config="true" signature="closeApp(org.testng.ITestResult)[pri:0, instance:scripts.Script1@60a2630a]" started-at="2022-12-23T12:20:22 IST" name="closeApp" finished-at="2022-12-23T12:20:23 IST" duration-ms="600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createCustomer status=SUCCESS method=Script1.createCustomer()[pri:1, instance:scripts.Script1@60a2630a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="publishReport()[pri:0, instance:scripts.Script1@60a2630a]" started-at="2022-12-23T12:20:23 IST" name="publishReport" finished-at="2022-12-23T12:20:23 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- scripts.Script1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
